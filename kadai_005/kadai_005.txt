@@ -1,0 +1,24 @@
+PS C:\Users\going\OneDrive\Desktop\lesson> cd C:\Users\going\OneDrive\Desktop\lesson\git_challenge
+PS C:\Users\going\OneDrive\Desktop\lesson\git_challenge> git init
+Initialized empty Git repository in C:/Users/going/OneDrive/Desktop/lesson/git_challenge/.git/
+PS C:\Users\going\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
+PS C:\Users\going\OneDrive\Desktop\lesson\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) c22ee87] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\going\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
+PS C:\Users\going\OneDrive\Desktop\lesson\git_challenge> git commit -m "日本語訳を追加"
+[main 4c15e4b] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\going\OneDrive\Desktop\lesson\git_challenge> git log
+commit 4c15e4b4c59ba443547bf1aeaa525d9631600014 (HEAD -> main)
+Author: KetomaMe <goingxboyz@gmail.com>
+Date:   Sat Jul 26 00:18:51 2025 +0900
+
+    日本語訳を追加
+
+commit c22ee87f883cd25895eb3fc8d95c943732ab9cd2
+Author: KetomaMe <goingxboyz@gmail.com>
+Date:   Sat Jul 26 00:14:50 2025 +0900
+
+    hello_world.txtを追加
